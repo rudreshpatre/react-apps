@@ -6,7 +6,7 @@ const App = () => {
   return (
     <>
     <Navbar />
-       <Hero />
+       <Hero title="Yo Dev!" subtitle="This is test subtitle"/>
         {/* <!-- Developers and Employers --> */}
         <section className="py-4">
           <div className="container-xl lg:container m-auto">
