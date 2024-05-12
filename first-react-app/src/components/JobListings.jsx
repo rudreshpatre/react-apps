@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import JobListing from './JobListing';
-import jobs from '../jobs.json'
+import jobs from '../jobs.json';
 
 const JobListings = () => {
     var recentJobs = jobs.slice(0,3);
@@ -13,7 +13,7 @@ const JobListings = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {recentJobs.map((job)=>(
                    <JobListing key={job.id} job={job}/>
-                ))}; 
+                ))} 
             </div>
           </div>
         </section>
